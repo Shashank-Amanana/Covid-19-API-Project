@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style>
+    @keyframeschangecol {
+      from {
+        border-color: red;
+      }
+
+      to {
+        border-color: blue;
+      }
+    }
+
+
+    p {
+      font-family=verdana;
+    }
+
+    body {
+      background-color: lightblue;
+      background-image: url("2.jpg");
+      background-repeat: repeat-x;
+      background-position: topcenter;
+      background-size: 100px 100px;
+      background-attachment: scroll;
+
+    }
+
+    .style1 {
+      width: 300px;
+      border: 20px solid red;
+      padding: 50px;
+      margin: 15px;
+      position: absolute;
+      top: 200px;
+      right: 0;
+      border-style: dotted dashed double hidden;
+      animation: changecol 5s infinite;
+
+    }
+
+    .style2 {
+      width: 350px;
+      height: 350px;
+      padding: 10px;
+      margin: 10px;
+      border: 10px solid green;
+      position: relative;
+      left: 10px;
+      top: 100px;
+
+    }
+
+    .style0 {
+      width: 900px;
+      height: 100px;
+      padding: 10px;
+      margin: 10px;
+      border: 10px hidden green;
+      position: sticky;
+      top: 130px;
+      display: block;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="style0">
+    <H1> AI Powered Network Solutions </H1>
+  </div>
+  <nav class="navbarnavbar-default">
+    <div class="container-fluid>
+  <div class=" navbar-header">
+      <a class="navbar-brand" href="#">Home</a>
+    </div>
+    <div class="">
+    <ul class="navnavbar-nav">
+      <li class="active"><a href="about.html">About</a>
+      <li><a href="location.html"> Location </a></li>
+      <li><a href="#"> Provider</a></li>
+      <li><a href="#"> Analytics </a></li>
+    </ul>
+    </div>
+  </nav>
+  <div class="style1">
+    <p tabindex='0'><em>This is a praggagraph.</em> It is editable. <i><small> Try </small> to change the<large> text. </large></i></p>
+    <p tabindex='1'>Second paragraph </p>
+    <p><mark>ird paragraph </mark></p>
+  </div>
+  <div class="style2">
+
+    <p> Video Demo </p>
+
+    <video width=300px height=300px style="display:flex;justify-content:center" controls autoplay muted>
+      <source src="Lecture Prof Bob Robert Hanneman-20220625_090749-Meeting Recording.mp4" type="video/mp4">
+      Video Tag not supported
+    </video>
+  </div>
+
+</body>
+
+</html>
